@@ -95,18 +95,18 @@ export default function Todo() {
           <span className="topbar-name">{user?.name || ''}</span>
           <div className="avatar">
             {user?.photo
-            ? <img src={user.photo} alt="profile" referrerPolicy="no-referrer" />
-            : initials}
+              ? <img src={user.photo} alt="profile" referrerPolicy="no-referrer" />
+              : initials}
           </div>
         </div>
       </div>
 
       <div className="main">
         <div className="greeting-row">
-          <div className="avatar">
+          <div className="avatar-lg">
             {user?.photo
-            ? <img src={user.photo} alt="profile" referrerPolicy="no-referrer" />
-            : initials}
+              ? <img src={user.photo} alt="profile" referrerPolicy="no-referrer" />
+              : initials}
           </div>
           <div className="greeting-text">
             <h1>{getGreeting()}, {firstName}</h1>
