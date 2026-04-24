@@ -41,7 +41,7 @@ export default function Register({ onSwitch }) {
           <button type="submit">Create account</button>
         </form>
         <div className="auth-divider">or</div>
-        <a href="http://localhost:5000/auth/google" className="google-btn">
+        <a href="https://todo-backend-itkm.onrender.com/auth/google" className="google-btn">
           Continue with Google
         </a>
         <div className="auth-switch">

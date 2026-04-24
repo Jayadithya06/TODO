@@ -86,7 +86,7 @@ export default function Login({ onSwitch }) {
           <button type="submit">Sign in</button>
         </form>
         <div className="auth-divider">or</div>
-        <a href={`${import.meta.env.VITE_API_URL}/auth/google`} className="google-btn">
+        <a href="https://todo-backend-itkm.onrender.com/auth/google" className="google-btn">
   Continue with Google
 </a>
         <div className="auth-switch">
